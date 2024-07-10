@@ -1,5 +1,6 @@
 from web3 import Web3, HTTPProvider, Account
-from zksync_sdk import ZkSyncProviderV01, HttpJsonRPCTransport, network, ZkSync, EthereumProvider, Wallet, ZkSyncSigner, EthereumSignerWeb3, ZkSyncLibrary
+from zksync_sdk import ZkSyncProviderV01, HttpJsonRPCTransport, network, ZkSync
+from zksync_sdk import EthereumProvider, Wallet, ZkSyncSigner, EthereumSignerWeb3, ZkSyncLibrary
 # Load crypto library
 library = ZkSyncLibrary()
 # Create Zksync Provider
