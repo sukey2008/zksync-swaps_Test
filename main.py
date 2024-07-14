@@ -6,7 +6,8 @@ library = ZkSyncLibrary()
 # Create Zksync Provider
 provider = ZkSyncProviderV01(provider=HttpJsonRPCTransport(network=network.goerli))
 # Setup web3 account
-account = Account.from_key("PRIVATE_KEY")
+PRIVATE_KEY = ''
+account = Account.from_key(PRIVATE_KEY)
 # Create EthereumSigner
 ethereum_signer = EthereumSignerWeb3(account=account)
 # Load contract addresses from server
